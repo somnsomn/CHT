@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Oswald&display=swap');
 
+/*backgrounds*/
 body {
     font-family: 'Oswald', sans-serif;
     background-color:black;
@@ -9,6 +10,26 @@ body {
     background-repeat:repeat;
 
 }
+
+
+
+
+#wrap {
+    background-color:hsla(218, 5%, 14%, 0.4);
+}
+
+
+#motdwrap {
+    background-image:url('http://getwallpapers.com/wallpaper/full/4/1/b/392461.jpg');
+    background-color:hsla(218, 5%, 14%, 0.9);
+    color:white;
+    border: solid black 3px;
+         
+}
+/* nav box w/ welcome gif inside MOTD */
+
+/* mostly TEXT font colors etc */
+
 
 .sitetitle {
 
@@ -43,22 +64,13 @@ body {
     text-shadow: 0 0 7px #fb2209 , 0 0 11px #fb2209;
 }
 
-
-
-
-
-#wrap {
-    background-color:hsla(218, 5%, 14%, 0.4);
+.sitetitle br {
+   display: block;
+   margin: 1px 0;
 }
 
 
-#motdwrap {
-    background-image:url('http://getwallpapers.com/wallpaper/full/4/1/b/392461.jpg');
-    background-color:hsla(218, 5%, 14%, 0.9);
-    color:white;
-    border: solid black 3px;
-         
-}
+/* font of chat box and video title with playlist background (**playlist bg for admin only) */
 
 #chatwrap {
 
@@ -78,6 +90,7 @@ body {
 
 
 
+/* emotes within chat box */
 
 img.channel-emote{width:200px}
 
@@ -85,17 +98,9 @@ img.channel-emote{width:200px}
 
 
 
-
+/* entire chat box incl userlist background */
 #messagebuffer.linewrap, #userlist, #chatheader, #videowrap-header {
 
     background-color:black;
 
 }
-
-
-
-br {
-   display: block;
-   margin: 1px 0;
-}
-
