@@ -1,4 +1,4 @@
-/* import google fonts to page */
+
 @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Oswald&display=swap');
 
 /*backgrounds*/
@@ -37,7 +37,7 @@ body {
     background-color:black;width:550px;
     font-family:'Oswald', sans-serif; font-size:10pt;
     border: 2px solid #00FF00;
-    border-radius: 7px;
+    border-radius: 1px; /*change this to 7 to round border */
     outline: none;
     border-color: #00FF00;
     box-shadow: 0 0 10px #9ecaed;
@@ -80,6 +80,9 @@ body {
 #videowrap {
 
     color:white;
+    text-align:center;
+    font-size:18px;
+    text-decoration:underline;
          
 }
 #playlistrow {
@@ -99,8 +102,13 @@ img.channel-emote{width:200px}
 
 
 /* entire chat box incl userlist background */
-#messagebuffer.linewrap, #userlist, #chatheader, #videowrap-header {
+#messagebuffer.linewrap, #userlist, #chatheader, #chatline.form-control, #videowrap {
 
     background-color:black;
+    border: 2px solid #00FF00;
+    border-radius: 1px;
+    outline: none;
+    border-color: #FFFFFF;
+   
 
 }
