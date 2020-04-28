@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Oswald&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color:black;
+    background-image:url('https://ak6.picdn.net/shutterstock/videos/1021491436/thumb/1.jpg');
+    background-attachment:fixed;
+    background-repeat:repeat;
+
+}
+
+.sitetitle {
+
+    color:white;
+    background-color:black;width:550px;
+    font-family:'Oswald', sans-serif; font-size:10pt;
+    border: 2px solid #00FF00;
+    border-radius: 7px;
+    outline: none;
+    border-color: #00FF00;
+    box-shadow: 0 0 10px #9ecaed;
+
+
+}
+
+.sitetitle b {
+    color:white ;
+    font-family:'Creepster', cursive;font-size:30pt;
+    text-shadow: 0 0 7px #75ff33 , 0 0 11px #00FF00;
+
+}
+
+.sitetitle a {
+    color:white;
+    font-family:'Oswald', sans-serif; font-size:15pt;
+    text-decoration:underline;
+    text-shadow: 0 0 7px #75ff33, 0 0 11px #00FF00;
+
+}
+
+.sitetitle a:hover {
+    text-shadow: 0 0 7px #fb2209 , 0 0 11px #fb2209;
+}
+
+
+
+
+
+#wrap {
+    background-color:hsla(218, 5%, 14%, 0.4);
+}
+
+
+#motdwrap {
+    background-image:url('http://getwallpapers.com/wallpaper/full/4/1/b/392461.jpg');
+    background-color:hsla(218, 5%, 14%, 0.9);
+    color:white;
+    border: solid black 3px;
+         
+}
+
+#chatwrap {
+
+    color:white;
+         
+}
+#videowrap {
+
+    color:white;
+         
+}
+#playlistrow {
+    background-color:hsla(218, 5%, 14%, 0.1);
+    color:white;
+         
+}
+
+
+
+
+img.channel-emote{width:200px}
+
+
+
+
+
+
+#messagebuffer.linewrap, #userlist, #chatheader, #videowrap-header {
+
+    background-color:black;
+
+}
+
+
+
+br {
+   display: block;
+   margin: 1px 0;
+}
+
